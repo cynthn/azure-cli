@@ -581,9 +581,9 @@ jobs:
     vmImage: 'macOS-10.14'
   steps:
   - task: UsePythonVersion@0
-    displayName: 'Use Python 3.8'
+    displayName: 'Use Python 3.6'
     inputs:
-      versionSpec: 3.8
+      versionSpec: 3.6
   - task: DownloadPipelineArtifact@1
     displayName: 'Download Metadata'
     inputs:
